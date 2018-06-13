@@ -1,0 +1,192 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+
+/* Sections Css */
+.row-padding {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.section-header {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+#first-h1 {
+    padding-top: 9rem;
+}
+.section-content {
+    text-align: left;
+}
+.section-content p {
+    font-size: 2.13rem;
+    padding-bottom: 2rem;
+}
+
+
+/*-- Intro Section --*/
+
+#intro {
+   background-color: #f2f2f2;
+}
+
+#intro .section-content {
+    max-width: 450px;
+    margin: 0 auto 2.1328rem;
+    text-align: center;
+}
+
+
+.grey-bg {
+    background-color: #f2f2f2;
+}
+
+.top-margin {
+    margin-top: 3.6rem;
+}
+.bottom-margin {
+    margin-bottom: 5rem;
+}
+
+.btn-primary {
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    font-size: 2.3rem;
+}
+
+.btn-info {
+    background-image: none;
+    font-size: 1.8rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+
+
+/*-- Services --*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container div.services {
+    width: 33rem;
+    margin: 1rem;
+    text-align: center;
+    
+    position: relative;
+}
+
+div.services img {
+    width: 100%;
+    height: 180;
+}
+#srv-dev {
+    border: 1px solid #b1b1ed;
+    color: #4a4acb;
+}
+#mnt-dev {
+    border: 1px solid #f1df37;
+    color: #ff9900;
+}
+#upg-dev {
+    border: 1px solid #99ff99;
+    color: #33cc33;
+}
+
+/* Footer */
+
+.social {
+    padding: 1rem;
+    background-color: #408bcc;
+    color: White;
+    text-align: center;
+    vertical-align: middle;
+}
+.fa-icon {
+    font-size: 3rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.social a:link, a:visited { 
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social a:link:active, a:visited:active { 
+    color: white;
+}
+
+
+.footer {
+    padding: 1rem;
+    background-color: #337ab7;
+    color: White;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* place holder */
+
+#mapsPlaceHolder {
+    padding: 160px 0;
+    border: 3px solid lightseagreen;
+    text-align: center;
+}
+
+
+/*-- min width 768 screens --*/
+
+@media only screen and (min-width: 768px) {
+
+    #intro {
+        background-image: url("/images/ziyad-shadow.png");
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        background-size: 328px 375px;
+
+        height: 99vh;
+        min-height: 50rem;
+        max-height: 55rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .row-padding {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    #intro {
+        background-position: 90% 100%;
+        background-size: 349px 399px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .row-padding {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    
+
+    #intro {
+        background-position: 85% 100%;
+        background-size: auto;
+        padding-top: 12rem;
+        max-height: 70rem;
+    }
+}
+
