@@ -247,7 +247,7 @@ export default class ContactForm extends React.Component {
             </Col>
             <Col xsHidden sm={6}>
                 <ReactBingmaps 
-                    bingmapKey = "[AiWQ2HEv6rml2ZQM1Ezvwm1H20zIiZOSYr2kpjDJpJBAoKvEwGxsSfGu7nysQBq_]" 
+                    bingmapKey = "[Aohcc69rBs9-RNxqCu-Q0L6N9pVB-toPxefH5fjm19xZZLlhIYrHx3iSusGI0_LP]" 
                     center = {[29.6847265, -95.4128961]}
                 > 
                 </ReactBingmaps>
