@@ -4,6 +4,7 @@ import validator from 'validator';
 import * as firebase from 'firebase';
 import moment from 'moment';
 import { ReactBingmaps } from 'react-bingmaps';
+import footer from './Footer';
 
 export default class ContactForm extends React.Component {
     constructor(props, context) {
