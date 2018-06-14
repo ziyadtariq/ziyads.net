@@ -5718,7 +5718,7 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-bingmaps@^3.4.0:
+react-bingmaps@3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/react-bingmaps/-/react-bingmaps-3.4.0.tgz#b2f335c6afb6b8dc556a35775aea7dbf9a891af7"
   dependencies:
