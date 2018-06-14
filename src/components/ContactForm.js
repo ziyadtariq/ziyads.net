@@ -4,7 +4,6 @@ import validator from 'validator';
 import * as firebase from 'firebase';
 import moment from 'moment';
 import { ReactBingmaps } from 'react-bingmaps';
-import footer from './Footer';
 
 export default class ContactForm extends React.Component {
     constructor(props, context) {
@@ -242,7 +241,7 @@ export default class ContactForm extends React.Component {
                     <h1>Say Hi!</h1>
                 </div>
                 <div className="section-content">
-                    <p>I'm local to Houston TX, for any questions please email <code>info@ziyads.net</code> or use the form in below and I will reply very soon.</p>
+                    <p>Local to Houston TX, for any questions please email <code>info@ziyads.net</code> or use the form in below and I will reply very soon.</p>
                 </div>
             </div>
             </Col>
