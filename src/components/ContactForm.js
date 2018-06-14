@@ -3,6 +3,7 @@ import { Row, Col, FormGroup, ControlLabel, FormControl,HelpBlock, Button, Alert
 import validator from 'validator';
 import * as firebase from 'firebase';
 import moment from 'moment';
+import { ReactBingmaps } from 'react-bingmaps';
 
 export default class ContactForm extends React.Component {
     constructor(props, context) {
@@ -240,12 +241,16 @@ export default class ContactForm extends React.Component {
                     <h1>Say Hi!</h1>
                 </div>
                 <div className="section-content">
-                    <p>For any questions please email <code>info@ziyads.net</code> or use the form in below and I will reply very soon.</p>
+                    <p>I'm local to Houston TX, for any questions please email <code>info@ziyads.net</code> or use the form in below and I will reply very soon.</p>
                 </div>
             </div>
             </Col>
             <Col xsHidden sm={6}>
-                <div id="mapsPlaceHolder"><p>Map Place Holder</p></div>
+                <ReactBingmaps 
+                    bingmapKey = "[AiWQ2HEv6rml2ZQM1Ezvwm1H20zIiZOSYr2kpjDJpJBAoKvEwGxsSfGu7nysQBq_]" 
+                    center = {[29.6847265, -95.4128961]}
+                > 
+                </ReactBingmaps>
             </Col>  
             <Col xs={12} sm={6}>
                 {submitted?<Alert bsStyle="success"><strong>{this.state.successSubmit}</strong></Alert>: null}
