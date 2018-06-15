@@ -9,8 +9,8 @@ export default class Footer extends Component {
                     <Row className="social">
                         <Col xs={12}>
                             <div>
-                                <a className="fa-icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com"><i className="fa fa-linkedin-square"></i></a>
-                                <a className="fa-icon" target="_blank" rel="noopener noreferrer" href="https://github.com/"><i className="fa fa-github "></i></a>
+                                <a className="fa-icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ziyads"><i className="fa fa-linkedin-square"></i></a>
+                                <a className="fa-icon" target="_blank" rel="noopener noreferrer" href="https://github.com/ziyadsnet"><i className="fa fa-github "></i></a>
                             </div>
                         </Col>
                     </Row>

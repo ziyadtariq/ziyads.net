@@ -1,27 +1,12 @@
 import * as firebase from 'firebase';
 
 const config = {
-    apiKey: "AIzaSyDpMMG9wWm3ZBVpkt1rnEVlXbSvza8CqCs",
-    authDomain: "ziyads-website.firebaseapp.com",
-    databaseURL: "https://ziyads-website.firebaseio.com",
-    projectId: "ziyads-website",
-    storageBucket: "",
-    messagingSenderId: "342381024219"
-  };
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_DATABASE_URL,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: "",
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID
+};
 
   firebase.initializeApp(config);
-
-  // const database = firebase.database();
-
-  //   database.ref().set({
-  //       contactForm : {
-  //         name: 'Ahmad Alazawy',
-  //         email: 'ahmad@alazawy.com',
-  //         message: 'test message from ahmad'
-  //       }
-
-  // }).then(() => {
-  //     console.log('Data is saved');
-  // }).catch((e)=> {
-  //   console.log('This failed.', e);
-  // });
