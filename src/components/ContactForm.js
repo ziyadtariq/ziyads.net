@@ -245,8 +245,7 @@ export default class ContactForm extends React.Component {
             </div>
             </Col>
             <Col xsHidden sm={6}>
-                <div id="mapsPlaceHolder">
-                    <p>Map Place Holder</p>
+                <div className="map">
                 </div>
             </Col>  
             <Col xs={12} sm={6}>
