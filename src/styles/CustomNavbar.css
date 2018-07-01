@@ -3,6 +3,13 @@
   font-size: 1.5em;
 }
 
+.navbar-header>li>a {
+  text-decoration: none;
+}
+.navbar-header>li {
+  list-style-type: none;
+}
+
 nav.navbar, .navbar-default {
   background-color: #337ab7;
   font-weight: bold;

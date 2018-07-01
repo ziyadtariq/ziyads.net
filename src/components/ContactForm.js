@@ -240,7 +240,7 @@ export default class ContactForm extends React.Component {
                     <h1>Say Hi!</h1>
                 </div>
                 <div className="section-content">
-                    <p>I live in Houston TX, for any questions please email <code>info@ziyads.net</code> or use the form in below and I will reply very soon.</p>
+                    <p>I live in Houston TX, for any questions please use the form in below and I will reply very soon.</p>
                 </div>
             </div>
             </Col>
