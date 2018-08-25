@@ -5,6 +5,7 @@
 
 .navbar-header>li>a {
   text-decoration: none;
+  z-index: 1;
 }
 .navbar-header>li {
   list-style-type: none;

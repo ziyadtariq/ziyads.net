@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 export default function Intro(props) {
     return(
         <Row className="show-grid row-padding" id="intro">
-            <Col xs={12} sm={6}>
+            <Col xs={12}>
                 <div id="first-h1">
                     <div className="section-header">
                         <h1>Hi, my name is Ziyad</h1>
@@ -12,7 +12,7 @@ export default function Intro(props) {
                     </div>
                     <div className="section-content">
                         <p>I build the fornt end for web applications using the latest tools and tech.</p>
-                        <a className="btn btn-primary" href="#contact" role="button">Hire me!</a>
+                        <a className="btn btn-primary" href="#contact" role="button">Say Hi!</a>
                     </div>
                 </div>
             </Col>

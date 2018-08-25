@@ -164,10 +164,10 @@ div.services img {
 @media only screen and (min-width: 768px) {
 
     #intro {
-        background-image: url("/images/zimg.png");
+        /* background-image: url("");
         background-repeat: no-repeat;
         background-position: 100% 100%;
-        background-size: 328px 375px;
+        background-size: 328px 375px; */
 
         height: 99vh;
         min-height: 50rem;
@@ -195,7 +195,7 @@ div.services img {
     
 
     #intro {
-        background-position: 85% 100%;
+        /* background-position: 85% 100%; */
         background-size: auto;
         padding-top: 12rem;
         max-height: 70rem;
